@@ -34,6 +34,7 @@
 
 ##### Media
 * Images/Audio/Video provided by Code Institute GitHub [Link](https://github.com/Code-Institute-Org/project-assets)
+* Logo Image is from [www.monkees.com](www.monkees.com)
 
 ##### Acknowledgements
 * .
