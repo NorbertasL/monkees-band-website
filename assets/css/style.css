@@ -7,59 +7,52 @@ h1, h2, h3, h4{
   margin: 0;
 }
 
-/*--------------------------------Header */
+/*--------------------------------Header including nav */
 header {
   margin: 0;
 }
+
+
 #header-container{
   background-color: #e63432;
-  position: relative;
   height: 100px;
 }
-#heading{
-  margin: 0;
-  height: 50px;
-}
-/*Removes build in margin*/
-.list-inline-item:not(:last-child){
-  margin: 0;
-}
-
-.logo {
+#logo {
   background: url("../images/monkees-logo.png");
   background-repeat:no-repeat;
   background-size:contain;
   background-position: center;
   min-height: 100px;
 }
-/*removes the remaining spaces between manu items*/
-.menu-container{
+#heading{
+  margin: 0;
+  height: 50px;
+  max-height: 50px;
+}
+#heading h1{
+/*TODO figure out how to constrain the text inside the div */
+  font-size: 2em
+}
+#nav{
+  /*removes the remaining spaces between manu items*/
   font-size: 0px;
 
-}
-
-#nav{
   margin: 0;
   background-color: #0ac5fa;
   height: 50px;
-
-
 }
-#nav li{
+.nav-item{
+  padding: 0;
   font-size: 14px;
-  padding: 0;
-
-
-}
-.menuitem{
-  padding: 0;
   background-color: #fff;
-
 }
-
-.menuitem a {
+.nav-item a {
   text-decoration: none;
   color: #e63432;
   font-size: 20px;
   text-transform: uppercase;
+}
+/*Removes build in margin*/
+.list-inline-item:not(:last-child){
+  margin: 0;
 }
