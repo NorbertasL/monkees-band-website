@@ -1,3 +1,7 @@
+
+body {
+  background-color: #ffec13;
+}
 /*----------------Spacial paddings/margins/text */
 h1, h2, h3, h4{
   margin: 0;
@@ -6,6 +10,9 @@ h1, h2, h3, h4{
 /*--------------------------------Header */
 header {
   margin: 0;
+}
+#header-container{
+  background-color: #e63432;
 }
 /*Removes build in margin*/
 .list-inline-item:not(:last-child){
@@ -20,11 +27,12 @@ header {
   min-height: 100px;
 
 
+
 }
 /*removes the remaining spaces between manu items*/
 .menu-container{
   font-size: 0px;
-  background-color: #fafafa
+  height: 100px;
 }
 
 #nav{
@@ -36,10 +44,13 @@ header {
 }
 .menuitem{
   padding: 0;
+  background-color: #0ac5fa;
 }
 
 .menuitem a {
   text-decoration: none;
+  color: #e63432;
+  font-size: 20px;
 }
 .menuitem span{
   display: block;
