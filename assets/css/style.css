@@ -2,31 +2,34 @@
 /*------Colours */
 .container {
   background-color: #ffec13;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1200px;
-  align-content: center;
 }
 .bg-colour-header-container{
   background-color: #e63432;
 }
-
-/*This will be split up*/
 .nav-item{
   background-color: #551a8b;
 }
 .nav-item a{
   color: #0ac5fa;
 }
-
 .heading h1{
   color: #0ac5fa;
+}
+
+.bg-colour-footer-container{
+  background-color: #551a8b;
 }
 /*----------------Spacial paddings/margins/text */
 h1, h2, h3, h4{
   margin: 0;
+}
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  align-content: center;
 }
 /*--------------------------------Header including nav */
 header {
@@ -35,6 +38,7 @@ header {
 .header-container{
   height: 100px;
   border-radius: 50%;
+  margin-bottom: 80px;
 }
 @media (max-width: 767px) {
   .header-container{
@@ -151,4 +155,81 @@ header {
 /*Removes build in margin*/
 .list-inline-item:not(:last-child){
   margin: 0;
+}
+
+/*----------------------Footer--*/
+.footer-container{
+  height: 80px;
+  margin: 0;
+}
+.book-now-container{
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+
+.footer-book-section a{
+  text-decoration:none;
+}
+
+.book-now-container a h3{
+
+  font-family: "Righteous", sans-serif;
+  font-size: 26px;
+  height: 60px;
+  width: 200px;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 50%;
+  background-color: #e63432;
+  color: #fff;
+  text-shadow: #000 2px -2px 2px;
+}
+
+.book-now-container:hover{
+  margin-top: 2px;
+  padding-left: 10px;
+}
+.book-now-container:hover a h3{
+  height: 75px;
+  width: 220px;
+  padding-top: 16px;
+  font-size:32px;
+  text-shadow: #000 4px -4px 4px;
+}
+
+
+.social-links{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: absolute;
+  right: 10px;
+
+}
+.social-links li a i{
+  width: 45px;
+  height: 45px;
+  padding: 18px 0;
+  border-radius: 50%;
+  font-size: 30px;
+  line-height: 7px;
+  text-align: center;
+}
+.social-links li a i:hover{
+  width: 55px;
+  height: 55px;
+  font-size: 35px;
+  padding-top: 22px;
+}
+.icon-youtube{
+  color: #fff;
+  background: #ff0000;
+}
+.icon-twitter{
+  color: #1da1f2;
+  background: #fff;
+}
+.icon-facebook{
+  color: #fff;
+  background: #3b5998;
 }

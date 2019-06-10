@@ -42,4 +42,5 @@
 * Logo Image is from [www.monkees.com](www.monkees.com)
 
 ##### Acknowledgements
-* .
+* Thank you Stack Overflow [Link](stackoverflow.com)
+  * Website and it members helped me a lot in figuring out problems.
