@@ -1,14 +1,18 @@
-
+@import url('https://fonts.googleapis.com/css?family=Lobster:100,200,300,400,500,600,700|Righteous:100,200,300,400,500,600,700');
 /*------Colours */
-body {
+.container {
   background-color: #ffec13;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  align-content: center;
 }
 .bg-colour-header-container{
   background-color: #e63432;
 }
-.bg-colour-nav{
-  background-color: #0ac5fa;
-}
+
 /*This will be split up*/
 .nav-item{
   background-color: #551a8b;
@@ -30,7 +34,14 @@ header {
 }
 .header-container{
   height: 100px;
+  border-radius: 50%;
 }
+@media (max-width: 767px) {
+  .header-container{
+    height: 180px;
+  }
+}
+
 .logo {
   background: url("../images/monkees-logo.png");
   background-repeat:no-repeat;
@@ -45,9 +56,15 @@ header {
   text-align: center;
 }
 .heading h1{
-/*TODO figure out how to constrain the text inside the div */
+  padding-right: 150px;
+  font-family: "Lobster", sans-serif;
   font-size: 2em;
   text-shadow: #000 2px -2px 2px;
+}
+@media (max-width: 767px) {
+  .heading h1{
+    padding-right: 0px;
+  }
 }
 .nav{
   /*removes the remaining spaces between manu items*/
@@ -58,6 +75,8 @@ header {
 }
 .nav-item-conrainer{
   height: 60px;
+  padding: 0px;
+  align-content: center;
 
 }
 .nav-item{
@@ -67,15 +86,66 @@ header {
   border-radius: 50%;
   padding-top: 10px;
 
+  margin: 0 auto;
+  position: relative;
+
 }
-.nav-item a {
+/*Makes nav buttons follow the curve*/
+.nav-item-home{
+  margin-top: 24px;
+}
+.nav-item-members{
+  margin-top: 26px;
+}
+.nav-item-listen{
+  margin-top: 20px;
+}
+.nav-item-contact{
+  margin-top: 8px;
+}
+
+@media (max-width: 767px) {
+  .nav-item-home{
+    margin-top: -20px;
+  }
+  .nav-item-members{
+    margin-top: -4px;
+  }
+  .nav-item-listen{
+    margin-top: 14px;
+  }
+  .nav-item-contact{
+    margin-top: -15px;
+  }
+}
+@media (max-width: 575px) {
+  .nav-item{
+    margin-top:10px;
+  }
+  .nav-item-home,
+  .nav-item-listen{
+    float:right;
+    margin-right: 4px;
+  }
+  .nav-item-members,
+  .nav-item-contact{
+      float:left;
+      margin-left: 4px;
+  }
+
+}
+.nav-item a{
+  font-family: "Righteous", sans-serif;
   text-decoration: none;
   font-size: 20px;
-  font-weight: 800;
   text-transform: uppercase;
   text-shadow: #000 2px -2px 2px;
-
-
+  width: 100%;
+  height: 100%;
+}
+.nav-item a:hover{
+  font-size: 24px;
+  text-shadow: #000 4px -4px 4px;
 
 }
 /*Removes build in margin*/
