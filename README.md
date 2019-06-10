@@ -22,7 +22,12 @@
 
 ---
 ### *Testing*
+* Header/Nav-bar
+  * Tested on all screen sizes
+  * Made sure nav buttons align
+  * Made sure logo and header text align
 
+* Footer Testing
 
 ---
 ### *Deployment*
