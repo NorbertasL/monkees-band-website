@@ -38,14 +38,8 @@ header {
 .header-container{
   height: 100px;
   border-radius: 50%;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
-@media (max-width: 767px) {
-  .header-container{
-    height: 180px;
-  }
-}
-
 .logo {
   background: url("../images/monkees-logo.png");
   background-repeat:no-repeat;
@@ -60,15 +54,11 @@ header {
   text-align: center;
 }
 .heading h1{
+  padding-top: 20px;
   padding-right: 150px;
   font-family: "Lobster", sans-serif;
   font-size: 2em;
   text-shadow: #000 2px -2px 2px;
-}
-@media (max-width: 767px) {
-  .heading h1{
-    padding-right: 0px;
-  }
 }
 .nav{
   /*removes the remaining spaces between manu items*/
@@ -108,36 +98,6 @@ header {
   margin-top: 8px;
 }
 
-@media (max-width: 767px) {
-  .nav-item-home{
-    margin-top: -20px;
-  }
-  .nav-item-members{
-    margin-top: -4px;
-  }
-  .nav-item-listen{
-    margin-top: 14px;
-  }
-  .nav-item-contact{
-    margin-top: -15px;
-  }
-}
-@media (max-width: 575px) {
-  .nav-item{
-    margin-top:10px;
-  }
-  .nav-item-home,
-  .nav-item-listen{
-    float:right;
-    margin-right: 4px;
-  }
-  .nav-item-members,
-  .nav-item-contact{
-      float:left;
-      margin-left: 4px;
-  }
-
-}
 .nav-item a{
   font-family: "Righteous", sans-serif;
   text-decoration: none;
@@ -157,10 +117,11 @@ header {
   margin: 0;
 }
 
-/*----------------------Footer--*/
+
 .footer-container{
   height: 80px;
   margin: 0;
+  margin-top: 20px;
 }
 .book-now-container{
   margin-top: 10px;
@@ -232,4 +193,46 @@ header {
 .icon-facebook{
   color: #fff;
   background: #3b5998;
+}
+
+
+/*----------------------MEdia--*/
+@media (max-width: 767px) {
+  .header-container{
+    height: 180px;
+  }
+  .heading h1{
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+  .nav-item-home{
+    margin-top: -20px;
+  }
+  .nav-item-members{
+    margin-top: -4px;
+  }
+  .nav-item-listen{
+    margin-top: 14px;
+  }
+  .nav-item-contact{
+    margin-top: -15px;
+  }
+}
+@media (max-width: 575px) {
+  .header-container{
+    margin-bottom: 110px;
+  }
+  .nav-item{
+    margin-top:10px;
+  }
+  .nav-item-home,
+  .nav-item-listen{
+    float:right;
+    margin-right: 4px;
+  }
+  .nav-item-members,
+  .nav-item-contact{
+      float:left;
+      margin-left: 4px;
+  }
 }
