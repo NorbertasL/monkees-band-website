@@ -24,10 +24,14 @@
 ### *Testing*
 * Header/Nav-bar
   * Tested on all screen sizes
-  * Made sure nav buttons align
-  * Made sure logo and header text align
+  * Tested nav buttons align on different screen sizes
+  * Tested logo and header text align in all sizes
+  * Tested all the nav links/logo links
 
 * Footer Testing
+  * Tested alignment of elements in all sizes
+  * Tested "Book Us Now!" links
+  * Tested the social links.They point to the default social links only
 
 ---
 ### *Deployment*
