@@ -19,6 +19,27 @@
 .bg-colour-footer-container{
   background-color: #551a8b;
 }
+/*----------------Image imports */
+.logo {
+  background: url("../images/monkees-logo.png");
+}
+.home-group-img img{
+    content: url("../images/monkees.jpg");
+}
+#md-pic{
+    content: url("../images/md.jpg");
+}
+#dj-pic{
+    content: url("../images/dj.jpg");
+}
+#mn-pic{
+    content: url("../images/mn.jpg");
+}
+#pt-pic{
+    content: url("../images/pt.jpg");
+}
+
+
 /*----------------Spacial paddings/margins/text */
 h1, h2, h3, h4{
   margin: 0;
@@ -41,7 +62,6 @@ header {
   margin-bottom: 50px;
 }
 .logo {
-  background: url("../images/monkees-logo.png");
   background-repeat:no-repeat;
   background-size:contain;
   background-position: center;
@@ -202,7 +222,6 @@ header {
   overflow: hidden;
 }
 .home-group-img img{
-    content: url("../images/monkees.jpg");
     max-width:100%;
 
     border-radius: 20%;
