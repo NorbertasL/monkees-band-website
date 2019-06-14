@@ -33,6 +33,17 @@
   * Tested "Book Us Now!" links
   * Tested the social links.They point to the default social links only
 
+* Home page
+  * Tested on all screen sizes
+  * Tested image and content repositioning
+  * Tested auto image resizing
+
+* Members page
+  * Tested on all screen sizes
+  * Tested of image is hidden on smaller screens
+  * Tested if content centers
+  * Tester if images of members resize
+
 ---
 ### *Deployment*
 
