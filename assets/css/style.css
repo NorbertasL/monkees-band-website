@@ -223,7 +223,6 @@ header {
 }
 .home-group-img img{
     max-width:100%;
-
     border-radius: 20%;
 }
 .home-group-history{
@@ -245,8 +244,36 @@ header {
   padding-right: 20px;
 }
 
+/*----------------------Members section styling--*/
 
 
+.members-image-container{
+  padding-top: 10px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.members-image-container img{
+  overflow: hidden;
+  max-width:100%;
+  max-height: 180px;
+  border-radius: 20%;
+  transform: translateY(25%);
+}
+
+.members-bio{
+  background-color: #e63432;
+  border-radius: 20px;
+}
+.members-bio h2{
+  font-family: "Lobster", sans-serif;
+  color: #0ac5fa;
+  text-shadow: #000 2px -2px 2px;
+}
+.members-bio p{
+  font-family: "Righteous", sans-serif;
+}
 
 /*----------------------MEdia--*/
 @media (max-width: 767px) {
@@ -269,7 +296,12 @@ header {
   .nav-item-contact{
     margin-top: -15px;
   }
-
+  .members-image-container{
+    display: none;
+  }
+  .members-bio h2{
+    text-align: center;
+}
 
 }
 @media (max-width: 575px) {
