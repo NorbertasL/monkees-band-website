@@ -12,7 +12,7 @@
 .nav-item a{
   color: #0ac5fa;
 }
-.heading h1, h5{
+.heading h1, h2, h5{
   color: #0ac5fa;
 }
 
@@ -80,6 +80,7 @@ header {
   font-size: 2em;
   text-shadow: #000 2px -2px 2px;
 }
+
 .nav{
   /*removes the remaining spaces between manu items*/
   font-size: 0px;
@@ -285,6 +286,12 @@ header {
 }
 .song-title{
   font-family: "Righteous", sans-serif;
+  text-shadow: #000 2px -2px 2px;
+}
+.media-section h2{
+  background-color: #e63432;
+  border-radius: 40px 40px 0px 0px;
+  font-family: "Lobster", sans-serif;
   text-shadow: #000 2px -2px 2px;
 }
 
