@@ -12,7 +12,7 @@
 .nav-item a{
   color: #0ac5fa;
 }
-.heading h1{
+.heading h1, h5{
   color: #0ac5fa;
 }
 
@@ -41,7 +41,7 @@
 
 
 /*----------------Spacial paddings/margins/text */
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5{
   margin: 0;
 }
 .container{
@@ -274,8 +274,21 @@ header {
 .members-bio p{
   font-family: "Righteous", sans-serif;
 }
+/*----------------------Listen section styling--*/
+.song{
+  background-color: #e63432;
+  border-radius: 40px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.song-title{
+  font-family: "Righteous", sans-serif;
+  text-shadow: #000 2px -2px 2px;
+}
 
-/*----------------------MEdia--*/
+/*----------------------Media--*/
 @media (max-width: 767px) {
   .header-container{
     height: 180px;
