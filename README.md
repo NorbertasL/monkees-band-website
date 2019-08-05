@@ -14,8 +14,21 @@
 ---
 ### *Features*
 ##### Existing
-* .
-
+* Responsive design
+  * Website column and content resizes depending on screen sizes
+* 1960's website feel
+  * Using bright colours and fun fonts the imitate a 1960's feel
+  * Using colours use by the bands album covers
+* Ability to play their song
+  * Need to click on the song icons
+* Ability to watch video
+  * Need to click on the icons
+* Contact form
+  * Easy to use contact form for booking "Gigs"
+* Social media links
+  * facebook
+  * twitter
+  * youtube
 
 ##### Ideas
 * .
