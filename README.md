@@ -46,11 +46,20 @@
 
 ---
 ### *Deployment*
+* Using GitHub Pages for hosting
+  * Info about it [Link Here](https://pages.github.com/)
+* Visit the project pages
+  * [Preview Website](https://norbertasl.github.io/monkees-band-website/)
+
 
 ---
 ### *Credits*
 ##### Content
-* .
+* The Monkees group information
+  * Sourced from wikipedia [The Monkees Wiki Page](https://en.wikipedia.org/wiki/The_Monkees)
+* Group member information sourced from:
+  * [Wikipedia](https://en.wikipedia.org)
+  * [The Monkees Website](https://www.monkees.com/)
 
 ##### Media
 * Images/Audio/Video provided by Code Institute GitHub [Link](https://github.com/Code-Institute-Org/project-assets)
