@@ -66,6 +66,10 @@
   * Tested element realignment based on screen size
   * Tested if the video/music resource play
 
+* Contact page
+  * Tested form resizing based on screen size.
+  * Form is not connected to a email service so no testing for it is needed.
+
 ---
 ### *Deployment*
 * Using GitHub Pages for hosting
@@ -90,3 +94,5 @@
 ##### Acknowledgements
 * Thank you Stack Overflow [Link](stackoverflow.com)
   * Website and it members helped me a lot in figuring out problems.
+* Thank you W3Schools [Link](https://www.w3schools.com)
+  * Website with very clean and helpful tutorials
