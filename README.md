@@ -31,7 +31,11 @@
   * youtube
 
 ##### Ideas
-* .
+* Custom media players
+  * A better looking media played for video and music
+
+* Contact form
+  * Connect the contact form to a email service
 
 ---
 ### *Testing*
@@ -56,6 +60,11 @@
   * Tested of image is hidden on smaller screens
   * Tested if content centers
   * Tester if images of members resize
+
+* Listen page
+  * Tested on all screen sizes
+  * Tested element realignment based on screen size
+  * Tested if the video/music resource play
 
 ---
 ### *Deployment*
