@@ -307,7 +307,6 @@ header {
   text-align: center;
 }
 
-
 /* Style inputs select elements and textareas */
 .contact_form_container input, select, textarea {
   width: 100%; /* Full width */
@@ -324,6 +323,7 @@ header {
 .contact_form_container input[type=submit]:hover {
   background-color: #0ac5fa;
 }
+
 
 /*----------------------Media--*/
 @media (max-width: 767px) {

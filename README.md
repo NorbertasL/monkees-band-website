@@ -12,6 +12,12 @@
 * Google Fonts [Link](https://fonts.google.com/)
 
 ---
+### *UX*
+I chose to go for a very retro style design.Using round shapes and very bright colour.
+Most colour used on the website have been used by the band in their album covers.
+I am not  very happy with the video/music players.I think they should be changed into something that
+more closely match the websites feel.
+
 ### *Features*
 ##### Existing
 * Responsive design
