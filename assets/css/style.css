@@ -23,22 +23,6 @@
 .logo {
   background: url("../images/monkees-logo.png");
 }
-.home-group-img img{
-    content: url("../images/monkees.jpg");
-}
-#md-pic{
-    content: url("../images/md.jpg");
-}
-#dj-pic{
-    content: url("../images/dj.jpg");
-}
-#mn-pic{
-    content: url("../images/mn.jpg");
-}
-#pt-pic{
-    content: url("../images/pt.jpg");
-}
-
 
 /*----------------Spacial paddings/margins/text */
 h1, h2, h3, h4, h5{
@@ -318,7 +302,6 @@ header {
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
-
 /* When moving the mouse over the submit button, add a blue color */
 .contact_form_container input[type=submit]:hover {
   background-color: #0ac5fa;
