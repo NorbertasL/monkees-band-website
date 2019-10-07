@@ -76,6 +76,15 @@ more closely match the websites feel.
   * Tested form resizing based on screen size.
   * Form is not connected to a email service so no testing for it is needed.
 
+* Validation
+  * Validated all html pages with https://validator.nu/
+  * Validated CSS with https://jigsaw.w3.org/css-validator/
+
+* Website was tested on these browsers:
+  * Chrome - Everything Works
+  * Mozila/FireFox - Everything Works(Some fixed were needed)
+
+
 ---
 ### *Deployment*
 * Using GitHub Pages for hosting
